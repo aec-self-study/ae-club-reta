@@ -1,7 +1,3 @@
-{{ config(
-    materialized='table'
-)}}
-
 select c.id
 ,c.name
 ,c.email
